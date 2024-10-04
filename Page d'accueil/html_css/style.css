@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c1212;
+}
+.navigation {
+
+    background-color: black;
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.liens {
+
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    display: flex; 
+    
+
+}
+
+.button {
+    background-color: #00B2B2;
+    border: none;
+    border-radius: 5px;
+    height: 55px;
+    width: 200px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button:hover {
+    background-color:#005858 ;
+    transition: ease 2.ms;
+}
+
+
+.background {
+    background-image: url("/Images/Banner\ modif.jpg");
+    background-size: cover;
+
+    width: 100% ;
+    height: 600px;
+    display: flec;
+
+}
+
+.landing-page {
+    background: url(/Images/Banner\ modif.jpg);
+    background-size: cover;
+    
+    height: 550px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.glass{
+
+    background-color: #b2ffff51 ;
+    backdrop-filter: blur(5px); 
+    padding: 30px;
+    height: 300px;
+    width: 950px;
+}
+
+.text {
+
+    /* padding: 30px; */
+}
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+    gap: 40px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2.nos{
+color: white;
+}
+
+/*  Section nos meilleurs véhicules */
+
+
+.famous{
+    height: 700px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px;
+
+}
+
+
+.carte{
+
+    border-radius: 15px;
+    border: solid white;
+    height: 410px;
+    width: 250px;
+    padding: 10px;
+
+    position: relative;
+    bottom: 40px;
+}
+
+.carte_img {
+    background-image: url(/Images/4.webp);
+    background-size: cover;
+    border-radius: 15px;
+    height: 250px;
+    width: 100%;
+}
+
+.info {
+    padding: 10px;
+    
+}
+
+p.title{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+p.infos{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+    
+
+}
+
+button.discovery{
+    background-color: #005858;
+    color: white;
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+h2.nos{
+    position: relative;
+    top: 40px;
+    padding-left: 160px;
+
+}
+button.catalogue{
+    background-color: #00B2B2;
+    border: none;
+   
+    border-radius: 5px;
+    color: black;
+
+    height: 50px;
+    width: 600px;
+    position: absolute;
+    bottom: -750px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.service {
+
+    height: 300px;
+    width: 300px;
+
+    border-radius: 15px;
+
+    color: white;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+/*  Section Notre promesse */
+
+
+
+
+
+div.container{
+
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+
+
+    justify-content: space-around;
+
+    /* row-gap: 40px;
+    column-gap: 100px; */
+
+
+
+
+}
+
+div.img-service{
+    background-image: url("/Images/Icone\ feuille.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+
+div.border {
+    border: solid white;
+    height: 150px;
+    width:150px ;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.srv{
+    font-size: 55px;
+    position: relative;
+    top: 15px;
+}
+
+
+h2.prom{
+font-size: 50px;
+color: white;
+margin-left: 180px;
+
+}
+
+
+
+.promesse{
+
+    height: 600px;
+    width: 100%;
+
+
+}
+
+section .contact{
+    background-color: black;
+    display: flex;
+
+}
+
+div.container2_ {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#image_ {
+    height: 500px;
+}
+
+.formulaire {
+
+    width: 600px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+
+
+
+}
+
+
+.nom {
+    background-color: #005858;
+    height: 40px;
+    border: solid #00B2B2;
+    width: 500px;
+    border-radius: 10px;
+
+}
+.email {
+    background-color: #005858;
+    height: 40px;
+    border: solid #00B2B2;
+    width: 500px;
+    border-radius: 10px;
+}
+.message {
+    background-color: #005858;
+    height: 100px;
+    border: solid #00B2B2;
+    width: 500px;
+    border-radius: 10px;
+}
+
+button.send{
+    background-color: #005858;
+    height: 40px;
+    width: 200px;
+    color: white ;
+    border: none;
+    border-radius: 10px;
+}
+
+p {
+    color: white;
+}
+
+
+
