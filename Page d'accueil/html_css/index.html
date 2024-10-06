@@ -10,6 +10,7 @@
 
 <body>
 
+    <!--Peut etre un peu plus de padding inline sur le header-->
     <header class="nav">
 
         <nav class="navigation">
@@ -33,7 +34,7 @@
         <div class="glass">
             <div class="text">
             <h1> VF engine </h1>
-            <br>
+            <br><!--On peux se passer de br ici-->
             <h2> Location de voitures futuristes et iréelles</h2>
             <br>
             <p> Non sérieusement , même nous , n'y croyons pas ,<br> ces voitures sont comme sortie d'un autre monde </p>
@@ -41,11 +42,12 @@
         </div>
     </div>
 
-    <br><br><br>
+    <br><br><br><!--Mauvaise pratique, autant utiliser des margin ou du padding-->
     <h2 class="nos"> Nos meilleurs véhicules </h2> 
     
     <section class="famous">
         
+        <!-- carte bien géré-->
         <div class="carte">
             <div class="carte_img"></div>
             <div class="info">
@@ -78,7 +80,7 @@
         <button class="catalogue"> Voir le catalogue </button> 
 </section>
 
-<br> <br> <br> <br> <br> <br><br><br><br>
+<br> <br> <br> <br> <br> <br><br><br><br><!-- carte bien géré-->
 <h2 class="prom"> Notre promesse </h2>
 <br> <br>
 <section class="promesse">
@@ -138,18 +140,19 @@
     <div class="container2_">
         <img id="image_" src="/Images/1.webp">
         <div class ="formulaire ">
-            <form action="##" method="post">
-            <p> Nom et prénom </p>
-            <input class="nom" name="nom" id="nom">
-            <p> Email </p>
-            <input class="email" name="mail" id="mail">
-            <p> Votre message </p>
-            <input class="message" name="message" id="message">
+            <form action="##" method="post"><!--attention a l'intentation-->
+                <p> Nom et prénom </p><!--<label>-->
+                <input class="nom" name="nom" id="nom">
+                <p> Email </p>
+                <input class="email" name="mail" id="mail">
+                <p> Votre message </p>
+                <input class="message" name="message" id="message">
             </form>
             <button class="send"> Valider </button>
         </div>
     </div>
 </section>
+<!--<footer>-->
     <p> Mention légal  Politique de confidentialité </p>
 
     
